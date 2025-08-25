@@ -9,15 +9,15 @@ const DarkMode = () => {
 
   const element = document.documentElement; // html element
 
-  React.useEffect(() => {
-    if (theme === "dark") {
-      element.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      element.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  }, [theme]);
+  // React.useEffect(() => {
+  //   if (theme === "dark") {
+  //     element.classList.add("dark");
+  //     localStorage.setItem("theme", "dark");
+  //   } else {
+  //     element.classList.remove("dark");
+  //     localStorage.setItem("theme", "light");
+  //   }
+  // }, [theme]);
 
   return (
     <div className="relative">
